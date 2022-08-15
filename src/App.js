@@ -50,7 +50,6 @@ const App = () => {
             navbar w-full">
               <Navbar />
             </div>
-          </div>
 
           <div>
             <Routes>
@@ -78,10 +77,9 @@ const App = () => {
               <Route path="/color-mapping" element={<ColorMapping />} />
               <Route path="/pyramid" element={<Pyramid />} />
               <Route path="stacked" element={<Stacked />} />
-
             </Routes>
           </div>
-
+        </div>
         </div>
       </BrowserRouter>
     </div>
